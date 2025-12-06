@@ -38,5 +38,7 @@ public class Triangulo {
         Triangulo triangulo = new Triangulo(base, altura);
 
         System.out.printf("\nA área do triângulo é: %.1f", triangulo.calcularArea(base, altura));
+
+        scanner.close();
     }
 }
