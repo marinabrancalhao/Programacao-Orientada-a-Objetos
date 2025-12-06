@@ -39,5 +39,7 @@ public class Produto {
         Produto produto = new Produto(nome, preco);
 
         System.out.printf("\nPreço com desconto: R$ %.2f%n",produto.calcularDesconto(preco));
+
+        scanner.close();
     }
 }
