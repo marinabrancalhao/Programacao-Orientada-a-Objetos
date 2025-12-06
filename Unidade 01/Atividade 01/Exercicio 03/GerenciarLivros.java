@@ -82,7 +82,7 @@ public class GerenciarLivros {
             }
         }
 
-
+        scanner.close();
 
     }
     
