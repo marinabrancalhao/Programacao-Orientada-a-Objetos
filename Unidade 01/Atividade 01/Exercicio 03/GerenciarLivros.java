@@ -19,7 +19,7 @@ public class GerenciarLivros {
             System.out.println("Título: " + livro.getTitulo());
             System.out.println("Autor: " + livro.getAutor());
             System.out.println("Número de páginas: " + livro.getNumeroPaginas());
-            System.out.println("---------------------------------------------------");
+            System.out.println("--------------------------------------------------");
         }
     }
 
