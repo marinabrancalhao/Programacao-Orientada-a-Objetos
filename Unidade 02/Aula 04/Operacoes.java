@@ -13,7 +13,7 @@ public class Operacoes {
     }
 
     public static void main(String[] args) {
-        
+
         Operacoes operacoes = new Operacoes();
 
         int resultado = operacoes.somar(3, 4);
