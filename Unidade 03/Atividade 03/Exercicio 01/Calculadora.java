@@ -1,3 +1,8 @@
+/*
+Divisão e Validação de Entradas
+Imagine que você está desenvolvendo uma calculadora básica e precisa evitar operações inválidas. 
+Escreva um método que receba dois números como parâmetros e lance uma exceção se o segundo número for zero, impedindo divisões por zero no programa.
+*/
 import java.util.Scanner;
 
 public class Calculadora {

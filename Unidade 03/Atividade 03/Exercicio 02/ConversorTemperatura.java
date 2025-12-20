@@ -1,3 +1,10 @@
+/*
+Conversão de Temperatura e Limites Físicos
+Em um sistema meteorológico, crie uma classe ConversorTemperatura com um método converterCelsiusParaFahrenheit(double temperaturaCelsius).
+Esse método deve lançar uma IllegalArgumentException caso a temperatura informada seja menor que -273.15 (o zero absoluto). 
+Depois, implemente um programa que utilize essa classe e capture a exceção, informando uma mensagem de erro apropriada ao usuário.
+*/
+
 import java.util.Scanner;
 
 public class ConversorTemperatura {

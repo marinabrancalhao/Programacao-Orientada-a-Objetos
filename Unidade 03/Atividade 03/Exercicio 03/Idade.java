@@ -1,3 +1,9 @@
+/*
+Validação de Idade
+Desenvolva uma classe Idade com um método verificarIdade(int idade) que lança uma exceção caso a idade fornecida seja menor que 0 ou maior que 150. 
+Este exercício ajudará a controlar a entrada de dados inválidos no sistema.
+*/
+
 import java.util.Scanner;
 
 public class Idade {
@@ -6,7 +12,7 @@ public class Idade {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite a idade para verificar se é válida: ");
+        System.out.print("Digite a idade: ");
         int idade = scanner.nextInt();
 
         try {
