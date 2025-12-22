@@ -47,11 +47,27 @@ public class Venda {
     }
 
     public void exibirDetalhesVenda(){
-        System.out.println("Detalhes da venda");
-        System.out.println("Veículo: " + veiculo.getModelo() + " - " + veiculo.getAno());
+
+        System.out.println("-- Detalhes da Venda --");
+        System.out.println("\nVeículo: " + veiculo.getModelo() + " - " + veiculo.getAno());
         System.out.println("Comprador: " + comprador.getNome() + " - Contato: " + comprador.getTelefone());
+        System.out.println("Custo de aquisição: R$" + veiculo.getPrecoCusto() );
         System.out.println("Valor da venda: R$" + valor);
         System.out.println("Data da venda: " + dataVenda);
+        System.out.println();
+
+        double resultadoFinanceiro = this.valor - veiculo.getPrecoCusto();
+
+        if (resultadoFinanceiro > 0) {
+            System.out.println("Resultado: Lucro de R$" + resultadoFinanceiro);
+        } else if (resultadoFinanceiro < 0) {
+            System.out.println("Resultado: Prejuízo de R$" + Math.abs(resultadoFinanceiro));
+        } else {
+            System.out.println("Resultado: Veículo vendido a preço de custo.");
+        }
+
+        System.out.println("----------------------------------------------------------");
+        
     }
 
 

@@ -4,8 +4,8 @@ public class Carro extends Veiculo {
     private String tipoCombustivel;
     private int capacidadePortaMalas;
 
-    public Carro(String marca, String modelo, int ano, String cor, double preco, double precoCusto, int numeroPortas, String tipoCombustivel, int capacidadePortaMalas) {
-        super(marca, modelo, ano, cor, preco, precoCusto); //super atualizado
+    public Carro(String marca, String modelo, int ano, String cor, double precoCusto, int numeroPortas, String tipoCombustivel, int capacidadePortaMalas) {
+        super(marca, modelo, ano, cor, precoCusto); 
         this.numeroPortas = numeroPortas;
         this.tipoCombustivel = tipoCombustivel;
         this.capacidadePortaMalas = capacidadePortaMalas;

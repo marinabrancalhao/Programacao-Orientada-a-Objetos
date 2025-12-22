@@ -5,8 +5,8 @@ public class Moto extends Veiculo {
     private String categoria;
 
 
-    public Moto(String marca, String modelo, int ano, String cor, double preco, double precoCusto, int cilindradas, boolean partidaEletrica, String categoria) {
-        super(marca, modelo, ano, cor, preco, precoCusto); //super atualizado
+    public Moto(String marca, String modelo, int ano, String cor, double precoCusto, int cilindradas, boolean partidaEletrica, String categoria) {
+        super(marca, modelo, ano, cor, precoCusto); 
         this.cilindradas = cilindradas;
         this.partidaEletrica = partidaEletrica;
         this.categoria = categoria;

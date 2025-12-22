@@ -5,16 +5,15 @@ public class Veiculo implements InterfaceVeiculo {
     private int ano;
     private String cor;
     private double preco;
-    private double precoCusto; //novo campo necessário para o relatório de vendas
+    private double precoCusto; 
     private int velocidade;
 
-    public Veiculo(String marca, String modelo, int ano, String cor, double preco, double precoCusto){
+    public Veiculo(String marca, String modelo, int ano, String cor, double precoCusto){
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
         this.cor = cor;
-        this.preco = preco;
-        this.precoCusto = precoCusto; //atribuição
+        this.precoCusto = precoCusto; 
         this.velocidade = 0;
     }
 
@@ -101,6 +100,7 @@ public class Veiculo implements InterfaceVeiculo {
         System.out.println("Ano: " + ano);
         System.out.println("Cor: " + cor);
         System.out.println("Preço: " + preco);
+        System.out.println("------------------------------------------------------------");
     }
 
 }
