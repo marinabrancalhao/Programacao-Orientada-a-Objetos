@@ -99,8 +99,7 @@ public class Veiculo implements InterfaceVeiculo {
         System.out.println("Modelo: " + modelo);
         System.out.println("Ano: " + ano);
         System.out.println("Cor: " + cor);
-        System.out.println("Preço: " + preco);
-        System.out.println("------------------------------------------------------------");
+        System.out.println("Preço: " + precoCusto); 
     }
 
 }

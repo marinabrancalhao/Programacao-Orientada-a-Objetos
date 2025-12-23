@@ -14,6 +14,7 @@ public class Caminhao extends Veiculo { //novo tipo de veículo
         super.exibirInformacoes();
         System.out.println("Capacidade de Carga: " + capacidadeCarga + " Toneladas");
         System.out.println("Número de Eixos: " + numeroEixos);
+        System.out.println("------------------------------------------------------------");
     }
 
     public void carregar() {

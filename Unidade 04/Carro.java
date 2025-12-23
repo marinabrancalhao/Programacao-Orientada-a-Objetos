@@ -49,6 +49,7 @@ public class Carro extends Veiculo {
         System.out.println("Número de portas: " + numeroPortas);
         System.out.println("Tipo de combustível: " + tipoCombustivel);
         System.out.println("Capacidade do porta-malas: " + capacidadePortaMalas + " litros");
+        System.out.println("------------------------------------------------------------");
     }
     
     

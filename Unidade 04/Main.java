@@ -185,7 +185,7 @@ public class Main {
                         double capacidadeCarga = scanner.nextInt();
                         scanner.nextLine();
 
-                        System.out.print("Digite o número de eixoa do veículo: ");
+                        System.out.print("Digite o número de eixos do veículo: ");
                         int numeroEixos = scanner.nextInt();
                         scanner.nextLine();
 
